@@ -1,4 +1,4 @@
-//Wheel of Success JavaScript
+//Wheel of Success variation: 'Boxing Clever' game in JavaScript
 // Global variables
 
 //define and get the keyboard
@@ -27,7 +27,7 @@ let missedNumber;
 let endGameMessage ='';
 let winLose = document.getElementById('banner');
 
-//initialise random phrase array
+//initialise random phrase array and save
 let getArray = [];
 let chosenPhrase;
 
