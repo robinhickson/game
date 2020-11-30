@@ -116,8 +116,9 @@ const checkwin = () => {
     const showLength = show.length;
     const letterLength = letter.length;
 
-if (missedNumber === 4){
+if (missedNumber >= 4){
     winLose.innerHTML = `<h3>Uh oh! One more punch, and you're a goner!</br></h3>`;
+    continue;
     } else if (missedNumber > 4) {
         winLoseScreen(false);
     } else if (showLength && (showLength === letterLength)) {
